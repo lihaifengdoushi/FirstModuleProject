@@ -21,13 +21,17 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor orangeColor];
-    
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(40, 80, 200, 50)];
-    label.textColor = [UIColor blackColor];
-    label.font = [UIFont systemFontOfSize:20];
-    [self.view addSubview:label];
-    label.text = @"FirstModuleController";
-    self.label = label;
+}
+
+- (UILabel *)label{
+    if (!_label) {
+        _label = [[UILabel alloc] initWithFrame:CGRectMake(40, 80, 250, 50)];
+        _label.textColor = [UIColor blackColor];
+        _label.font = [UIFont systemFontOfSize:15];
+        [self.view addSubview:_label];
+        _label.text = @"FirstModuleController";
+    }
+    return _label;
 }
 
 - (void)setDict:(NSDictionary *)dict{
