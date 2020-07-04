@@ -17,8 +17,13 @@
 		F3D2731924A8CDC200665BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2731824A8CDC200665BFB /* main.m */; };
 		F3D2732324A8CDC200665BFB /* FirstModuleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2732224A8CDC200665BFB /* FirstModuleProjectTests.m */; };
 		F3D2732E24A8CDC200665BFB /* FirstModuleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2732D24A8CDC200665BFB /* FirstModuleProjectUITests.m */; };
-		F3D2733D24A8D30400665BFB /* FirstModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2733C24A8D30400665BFB /* FirstModuleController.m */; };
-		F3D2738524A8DA3C00665BFB /* Target_FirstModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2738424A8DA3C00665BFB /* Target_FirstModule.m */; };
+		F3F25F2424B015B40055F249 /* Target_FirstModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F25F1924B015B40055F249 /* Target_FirstModule.m */; };
+		F3F25F2524B015B40055F249 /* FirstModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F25F1D24B015B40055F249 /* FirstModuleController.m */; };
+		F3F25F2624B015B40055F249 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F25F1E24B015B40055F249 /* CustomView.m */; };
+		F3F25F2724B015B40055F249 /* businessactivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F25F2024B015B40055F249 /* businessactivity@2x.png */; };
+		F3F25F2824B015B40055F249 /* businessactivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F25F2124B015B40055F249 /* businessactivity@3x.png */; };
+		F3F25F2924B015B40055F249 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F25F2224B015B40055F249 /* CustomView.xib */; };
+		F3F25F2A24B015B40055F249 /* businessactivity.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F25F2324B015B40055F249 /* businessactivity.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +65,16 @@
 		F3D2732924A8CDC200665BFB /* FirstModuleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstModuleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D2732D24A8CDC200665BFB /* FirstModuleProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstModuleProjectUITests.m; sourceTree = "<group>"; };
 		F3D2732F24A8CDC200665BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D2733B24A8D30400665BFB /* FirstModuleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirstModuleController.h; path = FirstModuleProjectSpec/Classes/FirstModuleController.h; sourceTree = SOURCE_ROOT; };
-		F3D2733C24A8D30400665BFB /* FirstModuleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FirstModuleController.m; path = FirstModuleProjectSpec/Classes/FirstModuleController.m; sourceTree = SOURCE_ROOT; };
-		F3D2738324A8DA3C00665BFB /* Target_FirstModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Target_FirstModule.h; path = FirstModuleProjectSpec/Classes/Target_FirstModule.h; sourceTree = SOURCE_ROOT; };
-		F3D2738424A8DA3C00665BFB /* Target_FirstModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Target_FirstModule.m; path = FirstModuleProjectSpec/Classes/Target_FirstModule.m; sourceTree = SOURCE_ROOT; };
+		F3F25F1924B015B40055F249 /* Target_FirstModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_FirstModule.m; sourceTree = "<group>"; };
+		F3F25F1A24B015B40055F249 /* FirstModuleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstModuleController.h; sourceTree = "<group>"; };
+		F3F25F1B24B015B40055F249 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		F3F25F1C24B015B40055F249 /* Target_FirstModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_FirstModule.h; sourceTree = "<group>"; };
+		F3F25F1D24B015B40055F249 /* FirstModuleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstModuleController.m; sourceTree = "<group>"; };
+		F3F25F1E24B015B40055F249 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		F3F25F2024B015B40055F249 /* businessactivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "businessactivity@2x.png"; sourceTree = "<group>"; };
+		F3F25F2124B015B40055F249 /* businessactivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "businessactivity@3x.png"; sourceTree = "<group>"; };
+		F3F25F2224B015B40055F249 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		F3F25F2324B015B40055F249 /* businessactivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = businessactivity.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +145,7 @@
 		F3D2730524A8CDC100665BFB /* FirstModuleProject */ = {
 			isa = PBXGroup;
 			children = (
+				F3F25F1724B015B40055F249 /* FirstModuleProjectSpec */,
 				F3D2730624A8CDC100665BFB /* AppDelegate.h */,
 				F3D2730724A8CDC100665BFB /* AppDelegate.m */,
 				F3D2730924A8CDC100665BFB /* SceneDelegate.h */,
@@ -145,10 +157,6 @@
 				F3D2731424A8CDC200665BFB /* LaunchScreen.storyboard */,
 				F3D2731724A8CDC200665BFB /* Info.plist */,
 				F3D2731824A8CDC200665BFB /* main.m */,
-				F3D2733B24A8D30400665BFB /* FirstModuleController.h */,
-				F3D2733C24A8D30400665BFB /* FirstModuleController.m */,
-				F3D2738324A8DA3C00665BFB /* Target_FirstModule.h */,
-				F3D2738424A8DA3C00665BFB /* Target_FirstModule.m */,
 			);
 			path = FirstModuleProject;
 			sourceTree = "<group>";
@@ -169,6 +177,39 @@
 				F3D2732F24A8CDC200665BFB /* Info.plist */,
 			);
 			path = FirstModuleProjectUITests;
+			sourceTree = "<group>";
+		};
+		F3F25F1724B015B40055F249 /* FirstModuleProjectSpec */ = {
+			isa = PBXGroup;
+			children = (
+				F3F25F1824B015B40055F249 /* Classes */,
+				F3F25F1F24B015B40055F249 /* Assets */,
+			);
+			path = FirstModuleProjectSpec;
+			sourceTree = SOURCE_ROOT;
+		};
+		F3F25F1824B015B40055F249 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3F25F1924B015B40055F249 /* Target_FirstModule.m */,
+				F3F25F1A24B015B40055F249 /* FirstModuleController.h */,
+				F3F25F1B24B015B40055F249 /* CustomView.h */,
+				F3F25F1C24B015B40055F249 /* Target_FirstModule.h */,
+				F3F25F1D24B015B40055F249 /* FirstModuleController.m */,
+				F3F25F1E24B015B40055F249 /* CustomView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F3F25F1F24B015B40055F249 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F3F25F2024B015B40055F249 /* businessactivity@2x.png */,
+				F3F25F2124B015B40055F249 /* businessactivity@3x.png */,
+				F3F25F2224B015B40055F249 /* CustomView.xib */,
+				F3F25F2324B015B40055F249 /* businessactivity.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +316,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F25F2A24B015B40055F249 /* businessactivity.png in Resources */,
 				F3D2731624A8CDC200665BFB /* LaunchScreen.storyboard in Resources */,
+				F3F25F2824B015B40055F249 /* businessactivity@3x.png in Resources */,
 				F3D2731324A8CDC200665BFB /* Assets.xcassets in Resources */,
+				F3F25F2724B015B40055F249 /* businessactivity@2x.png in Resources */,
 				F3D2731124A8CDC100665BFB /* Main.storyboard in Resources */,
+				F3F25F2924B015B40055F249 /* CustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,11 +373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D2730E24A8CDC100665BFB /* ViewController.m in Sources */,
-				F3D2738524A8DA3C00665BFB /* Target_FirstModule.m in Sources */,
 				F3D2730824A8CDC100665BFB /* AppDelegate.m in Sources */,
+				F3F25F2424B015B40055F249 /* Target_FirstModule.m in Sources */,
 				F3D2731924A8CDC200665BFB /* main.m in Sources */,
+				F3F25F2624B015B40055F249 /* CustomView.m in Sources */,
+				F3F25F2524B015B40055F249 /* FirstModuleController.m in Sources */,
 				F3D2730B24A8CDC100665BFB /* SceneDelegate.m in Sources */,
-				F3D2733D24A8D30400665BFB /* FirstModuleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

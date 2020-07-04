@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FirstModuleController.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    FirstModuleController *vc = [[FirstModuleController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end

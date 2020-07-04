@@ -83,6 +83,7 @@ FirstModuleProject用来学习组件化的
   spec.source       = { :git => "https://github.com/lihaifengdoushi/FirstModuleProject.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "FirstModuleProjectSpec/Classes/**/*"
+  spec.resources = "Assets/**/*"
 
 #  s.resource_bundles = {
 #     'FirstModuleProjectSpec' => ['FirstModuleProjectSpec/Assets/**/*']

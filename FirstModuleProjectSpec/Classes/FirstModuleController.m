@@ -7,6 +7,7 @@
 //
 
 #import "FirstModuleController.h"
+#import "CustomView.h"
 
 @interface FirstModuleController ()
 
@@ -20,7 +21,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    CustomView *customView = [[NSBundle mainBundle] loadNibNamed:@"CustomView" owner:nil options:nil][0];
+    customView.frame = CGRectMake(50, 50, 150, 150);
+    [self.view addSubview:customView];
 }
 
 - (UILabel *)label{
