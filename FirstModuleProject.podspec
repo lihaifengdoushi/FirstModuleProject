@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FirstModuleProject"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "FirstModuleProject文件"
 
   # This description is used to generate tags and improve search results.
@@ -83,7 +83,7 @@ FirstModuleProject用来学习组件化的
   spec.source       = { :git => "https://github.com/lihaifengdoushi/FirstModuleProject.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "FirstModuleProjectSpec/Classes/**/*"
-  spec.resources = "Assets/**/*"
+  spec.resources = "FirstModuleProjectSpec/Assets/**/*"
 
 #  s.resource_bundles = {
 #     'FirstModuleProjectSpec' => ['FirstModuleProjectSpec/Assets/**/*']
