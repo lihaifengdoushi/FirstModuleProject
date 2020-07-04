@@ -27,9 +27,8 @@
      */
     
     self.backgroundColor = [UIColor orangeColor];
-    
-    self.imageView.image = [UIImage imageNamed:@"businessactivity@2x"];
-    
+    // 加载图片资源
+    self.imageView.image = [UIImage imageWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:@"businessactivity@2x" ofType:@"png"]];    
 }
 
 @end

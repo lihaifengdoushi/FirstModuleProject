@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FirstModuleProject"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "FirstModuleProject文件"
 
   # This description is used to generate tags and improve search results.
